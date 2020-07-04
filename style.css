@@ -14,5 +14,10 @@
     text-align: justify;
     padding: 0px 15px;
     overflow: hidden;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
 
 }
