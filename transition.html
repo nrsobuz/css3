@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<style>
+
+.box1{
+width: 200px;
+height: 200px;
+border: 2px solid rebeccapurple;
+background-color:springgreen;
+transition: background-color 15s ease 1s ;
+}
+
+.box1:hover{
+    background-color: red;
+}
+
+.box2{
+width: 200px;
+height: 200px;
+border: 2px solid rebeccapurple;
+background-color:springgreen;
+transition-property: background-color, width ;
+transition-timing-function: ease, ease-in;
+transition-duration: 10s, 5s;
+transition-delay: 1s, 1s;
+
+}
+
+.box2:hover{
+    background-color: red;
+    width: 500px;
+}
+
+</style>
+
+<body>
+    <div class="box1">
+
+        <h1>Lorem ipsum dolor.</h1>
+    </div>
+    
+
+    <div class="box2">
+
+        <h1>Lorem ipsum dolor.</h1>
+    </div>
+
+</body>
+</html>
