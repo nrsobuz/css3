@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+<style>
+
+    @keyframes slidein{
+        0% {
+            left: 0;
+            top: 0;
+            background-color:tomato;
+        }
+
+        50%{
+
+            left: 400px;
+            top: 100px;
+            background-color:yellow;
+        }
+
+        100%{
+                left: 800px;
+                top: 0;
+                background-color:orange;
+
+        }
+    }
+
+.stage{
+    background-color:rgb(110, 175, 236);
+    height: 200px;
+    min-width: 800px;
+
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+
+.stage:hover .ball{
+   animation: slidein 3s  ease-in-out 0.2s infinite alternate;
+}
+</style>
+
+
+
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
